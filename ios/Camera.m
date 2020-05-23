@@ -11,11 +11,3 @@ RCT_EXPORT_VIEW_PROPERTY(bestGuess, NSString)
 RCT_EXPORT_VIEW_PROPERTY(confidence, float)
 RCT_EXPORT_VIEW_PROPERTY(onStatusChange, RCTDirectEventBlock)
 @end
-
-/*
-RCT_EXTERN_METHOD(turnOn)
-RCT_EXTERN_METHOD(turnOff)
-RCT_EXTERN_METHOD(getStatus: (RCTResponseSenderBlock)callback)
-RCT_EXPORT_VIEW_PROPERTY(bestGuesses, NSNumberArray)
-
-*/

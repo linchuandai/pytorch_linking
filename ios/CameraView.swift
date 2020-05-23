@@ -16,7 +16,6 @@ class CameraView: UIView {
   @objc var onStatusChange: RCTDirectEventBlock?
   
   private var predictor = ImagePredictor()
-  // var videoCaptureCompletionBlock: ([Float32]? -> Void)?
   private let inputWidth = 224
   private let inputHeight = 224
 
